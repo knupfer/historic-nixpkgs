@@ -39,7 +39,7 @@ rec
       "1lm1lir97y9342frjlabh8y3fg6svbrai713p6hcn8k9wlr2vll9";
     nixpkgs_19_03 = getnix
       "a1ccf5ff6ab6c47b5e551683d9d88b8963fc6d8f"
-      "0293j9wib78n5nspywrmd9qkvcqq2vcrclrryxqnaxvj3bs1c0vi";
+      "0v3amr9brkhl3pfjyrfnb9xb4qh49r7j4jcimvdyn9lbdns399ph";
     nixpkgs_19_09 = getnix
       "014afee914b2b46e239ae796f981cde6a22b6d41"
       "0bxyp5j6i57k4m0nhw4ccxgl09nx699gicdf94pw2dixqb8z5v8a";
