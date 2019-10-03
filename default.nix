@@ -1,8 +1,9 @@
 let local = import <nixpkgs> {};
-    getnix = r: s: import (local.fetchgit {
-       url    = https://github.com/NixOS/nixpkgs.git;
-       rev    = r;
-       sha256 = s;
+    getnix = r: s: import (local.fetchFromGitHub {
+      owner  = "NixOS";
+      repo   = "nixpkgs";
+      rev    = r;
+      sha256 = s;
     }) {};
 in
 rec
