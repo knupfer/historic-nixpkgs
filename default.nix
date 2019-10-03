@@ -4,7 +4,7 @@ let local = import <nixpkgs> {};
        rev    = r;
        sha256 = s;
     }) {};
-    versions =
+in
 rec
   {
     nixpkgs_13_10 = getnix
@@ -33,7 +33,7 @@ rec
       "042pgxi8yqnw8cnk1xs0knj6570xpgc9jhhic256x26ffi9sckhr";
     nixpkgs_18_03 = getnix
       "23c020191c152a48c115b42828b024a344284c8c"
-      "0c0s190v5z2fz3j77gjbjrg2vy9hsj66fla11kpy52mxvk47m7k1";
+      "1myjycrvl9wq9mnjx92xfkn91vjdslzfpi8g1idl982dwc5fqy73";
     nixpkgs_18_09 = getnix
       "f0b18a3f96fc638bcfc55f2c9c45f3ef19196696"
       "1lm1lir97y9342frjlabh8y3fg6svbrai713p6hcn8k9wlr2vll9";
@@ -44,10 +44,6 @@ rec
       "014afee914b2b46e239ae796f981cde6a22b6d41"
       "0bxyp5j6i57k4m0nhw4ccxgl09nx699gicdf94pw2dixqb8z5v8a";
 
-    nixpkgs_head = getnix
-      "45e3058f78e4d861f88499d5e67e9b0ad5e6f509"
-      "1qcrpj97g1lb8x36sk8xm6q68spwwricgdjxnbrsxbjzpns08mkd";
-
     nixpkgs_2013 = nixpkgs_13_10;
     nixpkgs_2014 = nixpkgs_14_12;
     nixpkgs_2015 = nixpkgs_15_09;
@@ -55,6 +51,4 @@ rec
     nixpkgs_2017 = nixpkgs_17_09;
     nixpkgs_2018 = nixpkgs_18_09;
     nixpkgs_2019 = nixpkgs_19_09;
-  };
-in versions
-   // local.lib.last (local.lib.mapAttrsToList (name: value: value) versions)
+  }
