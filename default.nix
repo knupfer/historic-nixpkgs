@@ -8,6 +8,10 @@ let local = import <nixpkgs> {};
 in
 rec
   {
+    master = getnix # 2019.10.05
+      "99df63be0a5fc3623a9953188f2700b44898fec7"
+      "1k0967i180pn777kssd94y8l1vcqwkaqkwiqf7qzdwzdl47f87jh";
+
     nixpkgs_13_10 = getnix
       "081d5aaabaf2dc52bb77407648514af2bebe0e1c"
       "11fq177lkyzha2fhr2i1v2wi1cdszbjj0wya6jf4897nbidaji1q";
