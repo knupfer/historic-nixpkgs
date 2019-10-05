@@ -39,11 +39,11 @@ rec
       "f0b18a3f96fc638bcfc55f2c9c45f3ef19196696"
       "1lm1lir97y9342frjlabh8y3fg6svbrai713p6hcn8k9wlr2vll9";
     nixpkgs_19_03 = getnix
-      "a1ccf5ff6ab6c47b5e551683d9d88b8963fc6d8f"
-      "0v3amr9brkhl3pfjyrfnb9xb4qh49r7j4jcimvdyn9lbdns399ph";
+      "b045330643547b2ee8cf8f454fc52e4de05d3011"
+      "11s4njsgzz028ai9rgmjhy79jqp4kxwjjsn5a12zfg0kbbbzzyxi";
     nixpkgs_19_09 = getnix
-      "014afee914b2b46e239ae796f981cde6a22b6d41"
-      "0bxyp5j6i57k4m0nhw4ccxgl09nx699gicdf94pw2dixqb8z5v8a";
+      "bd5b390287d6e1eca0fd25a08f631b4d6e542d3c"
+      "02q4pvvpfsvhw0382rdk8000g1g1hz7h2f7g2p85y47afbjvmwlm";
 
     nixpkgs_2013 = nixpkgs_13_10;
     nixpkgs_2014 = nixpkgs_14_12;
