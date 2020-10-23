@@ -8,9 +8,10 @@ let local = import <nixpkgs> {};
 in
 rec
   {
-    master = getnix # 2019.10.05
-      "99df63be0a5fc3623a9953188f2700b44898fec7"
-      "1k0967i180pn777kssd94y8l1vcqwkaqkwiqf7qzdwzdl47f87jh";
+
+    master = getnix # 2020-10-08
+      "553ec1bf727a95d33de0bf32a8510af346aa38f6"
+      "0sink1m5dx6samxkdzhhqhmrz52ycvc9fjl284ks385zm2z4flzv";
 
     nixpkgs_13_10 = getnix
       "081d5aaabaf2dc52bb77407648514af2bebe0e1c"
@@ -37,17 +38,20 @@ rec
       "3ba3d8d8cbec36605095d3a30ff6b82902af289c"
       "042pgxi8yqnw8cnk1xs0knj6570xpgc9jhhic256x26ffi9sckhr";
     nixpkgs_18_03 = getnix
-      "23c020191c152a48c115b42828b024a344284c8c"
-      "1myjycrvl9wq9mnjx92xfkn91vjdslzfpi8g1idl982dwc5fqy73";
+      "3e1be2206b4c1eb3299fb633b8ce9f5ac1c32898"
+      "11d01fdb4d1avi7564h7w332h3jjjadsqwzfzpyh5z56s6rfksxc";
     nixpkgs_18_09 = getnix
-      "f0b18a3f96fc638bcfc55f2c9c45f3ef19196696"
-      "1lm1lir97y9342frjlabh8y3fg6svbrai713p6hcn8k9wlr2vll9";
+      "925ff360bc33876fdb6ff967470e34ff375ce65e"
+      "1qbmp6x01ika4kdc7bhqawasnpmhyl857ldz25nmq9fsmqm1vl2s";
     nixpkgs_19_03 = getnix
-      "b045330643547b2ee8cf8f454fc52e4de05d3011"
-      "11s4njsgzz028ai9rgmjhy79jqp4kxwjjsn5a12zfg0kbbbzzyxi";
+      "27aaaa5ba6923104a23bae75d323dc975390195e"
+      "1fdzc6psj369bi9bybgm9vwl5c7sa4z6k2sdz95ypcpgcg3s12ql";
     nixpkgs_19_09 = getnix
-      "bd5b390287d6e1eca0fd25a08f631b4d6e542d3c"
-      "02q4pvvpfsvhw0382rdk8000g1g1hz7h2f7g2p85y47afbjvmwlm";
+      "289466dd6a11c65a7de4a954d6ebf66c1ad07652"
+      "0r5ja052s86fr54fm1zlhld3fwawz2w1d1gd6vbvpjrpjfyajibn";
+    nixpkgs_20_03 = getnix
+      "326767fd7309831974e6d7533593725897010c49"
+      "02gfwiw7nkxlbpjq4mxkwynv8svc4z1gkn9chwik2pjjpmiwv4j3";
 
     nixpkgs_2013 = nixpkgs_13_10;
     nixpkgs_2014 = nixpkgs_14_12;
@@ -56,4 +60,5 @@ rec
     nixpkgs_2017 = nixpkgs_17_09;
     nixpkgs_2018 = nixpkgs_18_09;
     nixpkgs_2019 = nixpkgs_19_09;
+    nixpkgs_2020 = nixpkgs_20_03;
   }
