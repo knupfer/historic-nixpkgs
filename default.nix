@@ -9,9 +9,9 @@ in
 rec
   {
 
-    master = getnix # 2020-10-08
-      "553ec1bf727a95d33de0bf32a8510af346aa38f6"
-      "0sink1m5dx6samxkdzhhqhmrz52ycvc9fjl284ks385zm2z4flzv";
+    master = getnix # 2021-02-06
+      "671fd3a3c13383cc1d7805e2b7854b5226205d07"
+      "0kcq41s5dx0w683m941fgkxv70rmmvi4r94zh5pdxniasnrgplk7";
 
     nixpkgs_13_10 = getnix
       "081d5aaabaf2dc52bb77407648514af2bebe0e1c"
@@ -47,11 +47,14 @@ rec
       "27aaaa5ba6923104a23bae75d323dc975390195e"
       "1fdzc6psj369bi9bybgm9vwl5c7sa4z6k2sdz95ypcpgcg3s12ql";
     nixpkgs_19_09 = getnix
-      "289466dd6a11c65a7de4a954d6ebf66c1ad07652"
-      "0r5ja052s86fr54fm1zlhld3fwawz2w1d1gd6vbvpjrpjfyajibn";
+      "75f4ba05c63be3f147bcc2f7bd4ba1f029cedcb1"
+      "157c64220lf825ll4c0cxsdwg7cxqdx4z559fdp7kpz0g6p8fhhr";
     nixpkgs_20_03 = getnix
-      "326767fd7309831974e6d7533593725897010c49"
-      "02gfwiw7nkxlbpjq4mxkwynv8svc4z1gkn9chwik2pjjpmiwv4j3";
+      "8fa9a8aa02298d738d552cc36af2e816cf03badb"
+      "0y9z4yl4wl07dfcsn0wv27bdwa0yx10bq4yxx6r9w1r04bb6khqn";
+    nixpkgs_20_09 = getnix
+      "f1e7afd21d98cf82c91822daac133a2869473567"
+      "1jf5rx7wymbnd42rmv8z6v1l44bzxfb6aldf0wzqwzvdwwxcbp56";
 
     nixpkgs_2013 = nixpkgs_13_10;
     nixpkgs_2014 = nixpkgs_14_12;
@@ -60,5 +63,5 @@ rec
     nixpkgs_2017 = nixpkgs_17_09;
     nixpkgs_2018 = nixpkgs_18_09;
     nixpkgs_2019 = nixpkgs_19_09;
-    nixpkgs_2020 = nixpkgs_20_03;
+    nixpkgs_2020 = nixpkgs_20_09;
   }
